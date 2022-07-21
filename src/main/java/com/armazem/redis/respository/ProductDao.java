@@ -1,6 +1,6 @@
-package com.javatechie.redis.respository;
+package com.armazem.redis.respository;
 
-import com.javatechie.redis.entity.Product;
+import com.armazem.redis.entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
@@ -24,7 +24,7 @@ public class ProductDao {
     }
 
     public Product findProductById(int id){
-        return (Product) template.opsForHash().get(HASH_KEY,id);
+        return (Product) template.opsForHash().get(HASH_KEY, id);
     }
 
 

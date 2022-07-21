@@ -1,4 +1,4 @@
-package com.javatechie.redis.entity;
+package com.armazem.redis.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

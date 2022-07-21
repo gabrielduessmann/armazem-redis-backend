@@ -1,7 +1,7 @@
-package com.javatechie.redis;
+package com.armazem.redis;
 
-import com.javatechie.redis.entity.Product;
-import com.javatechie.redis.respository.ProductDao;
+import com.armazem.redis.entity.Product;
+import com.armazem.redis.respository.ProductDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
